@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
     res.json({
         message1: 'Hello FS2024 DevOps Course! These changes are made by murridim',
         message2: 'Weitere Änderungen um Verknüpfung der Jobs zu prüfen'
+        message3: 'Weitere Änderungen um SCM Prüfungsintervall zu prüfen'
     });
 });
 
