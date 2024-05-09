@@ -9,8 +9,10 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	res.send('Hello FS2024 DevOps Course! These changes are made by murridim');
-	res.send('Weitere Änderungen um Verknüpfung der Jobs zu prüfen');
+    res.json({
+        message1: 'Hello FS2024 DevOps Course! These changes are made by murridim',
+        message2: 'Weitere Änderungen um Verknüpfung der Jobs zu prüfen'
+    });
 });
 
 app.listen(PORT, HOST);
